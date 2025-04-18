@@ -1,11 +1,12 @@
 from tkinter import *
 
-
+# =========== window options ====
 window = Tk()
 window.title("Login Form")
 window.geometry("340x340")
-window.resizable(0, 0)
+window.resizable(False,False)
 window.config(bg='#333333')
+
 
 # ========== Creating Widgets ===========#
 login_label = Label(window, text="Login",)
